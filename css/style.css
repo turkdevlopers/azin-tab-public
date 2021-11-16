@@ -3488,7 +3488,8 @@ h6 {
 ============================================================================================ */
 .download-app-area {
   background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -webkit-linear-gradient(
+207deg, #322bdd 0%, #7249fb 100%);
   background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
 }
 
