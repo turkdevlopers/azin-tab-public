@@ -26,7 +26,7 @@ body {
   height: calc(100% - 20px);
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   min-height: 2px;
   max-height: 5px;
   width: 100vw;
@@ -40,8 +40,8 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 0;
-  box-shadow: #322bdd 0px 0px 6px;
+  width: 0 ;
+  box-shadow: #322bdd 0px 0px 6px ;
 }
 /* End scroll bar */
 
