@@ -17,6 +17,10 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/azintab.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#mainNav" data-offset="70">
@@ -246,6 +250,31 @@
 		<div id="scrollBar"></div>
 	</div>
 </section>
+<label class="azi-demo-button" for="open-modal"">
+	<!-- <img src="/photo/fullscreen-org.svg" alt="" width="50%" height="50%"> -->
+	<div class="azi-icon">
+		<span class="azi-top-left"></span>
+		<span class="azi-top-right"></span>
+		<span class="azi-bottom-left"></span>
+		<span class="azi-bottom-right"></span>
+	</div>
+</label>
+
+<div class="azi-modal__container">
+	<input type="checkbox" id="open-modal" class="azi-modal__toggler" />
+	<label class="azi-modal__mask" for="open-modal"></label>
+	<div class="azi-modal">
+		<label class="azi-modal__close" for="open-modal"></label>
+		<div class="azi-modal__content">
+			<h1 class="azi-modal__title">فول اسکرین کردن این سایت</h1>
+			<p> برای حذف تب بالای کروم و تمام صفحه شدن، دکمه پایین را بزنید .</p>
+			<div class="azi-control-gif">
+				<img src="pics/fullscreen_dribbble.gif" alt="" />
+			</div>
+			<label class="azi-button" id="makefullscreen" for="open-modal">فول اسکرین اعمال شود </label>
+		</div>
+	</div>
+</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -256,5 +285,6 @@
 	<script src=js/jquery-magnific-popup.min.js></script>
 	<script src="js/theme.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/azintab.js"></script>
 </body><!-- This template has been downloaded from Webrubik.com -->
 </html>
