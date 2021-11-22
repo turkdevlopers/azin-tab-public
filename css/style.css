@@ -22,26 +22,26 @@ body {
 }
 /* css scroll vottom */
 .bottom-scrollbar {
-  background-color: #fff !important;
-  height: calc(100% - 20px) !important;
-  position: fixed !important;
-  left: 0 !important;
-  bottom: 0px !important;
-  min-height: 2px !important;
-  max-height: 5px !important;
-  width: 100vw !important;
+  background-color: #fff;
+  height: calc(100% - 20px);
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  min-height: 2px;
+  max-height: 5px;
+  width: 100vw;
 }
 
 .bottom-scrollbar #scrollBar {
-  background-color: #322bdd !important;
+  background-color: #322bdd;
   content: '';
-  display: block !important;
-  height: 100% !important;
-  position: absolute !important;
-  left: 0 !important;
-  top: 0 !important;
-  width: 0 !important;
-  box-shadow: #322bdd 0px 0px 6px !important;
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0 ;
+  box-shadow: #322bdd 0px 0px 6px ;
 }
 /* End scroll bar */
 
