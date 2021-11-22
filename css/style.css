@@ -26,10 +26,10 @@ body {
   height: calc(100% - 20px);
   position: fixed;
   left: 0;
-  bottom: 10px;
+  bottom: 0px;
   min-height: 2px;
   max-height: 5px;
-  width: 100vw;
+  width: 100vw;;
 }
 
 .bottom-scrollbar #scrollBar {
