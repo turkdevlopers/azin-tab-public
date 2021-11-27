@@ -4,21 +4,62 @@
 <style>
 .button {
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 50px 2px;
   cursor: pointer;
   font-family: 'Iranian Sans', sans-serif;
+  text-transform: uppercase;
+    font-weight: 700;
+    background: #4FD1C5;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+    border-radius: 5px;
 }
+
+.button:hover {
+    color: #fff;
+    transform: translateY(-6px);
+  }
+  
+  button::after {
+    content: '';
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
 body {
-	text-align: center;
+    text-align: center;
     font-family: 'Iranian Sans', sans-serif;
-}
-body {
     background: linear-gradient(270deg, #d5e3df, #d1edf3, #d8d1f3, #e2eee0);
     background-size: 800% 800%;
 
@@ -56,10 +97,15 @@ body {
 <meta name="theme-color" content="#008CBA" />
 <body>
     <div style="margin-top: 260px;">
-<h1>برای مشاهده پیش نمایش کلیک کنید</h1>
-<p style="font-weight: 700;">برای دیدن پیش نمایش افزونه آذین تب روی دکمه زیر کلیک کنید تا به صفحه پیش نمایش منتقل شوید</p>
+        <img src="/noun_Landing Page_3570726.svg" alt="" width="5%">
+<h1>مشاهده پیش نمایش</h1>
 
-<a href="../" target="_blank" class="button button2">کلیک کنید</a>
+<br>
+<p style="font-weight: 700;">برای دیدن پیش نمایش افزونه آذین تب روی دکمه زیر کلیک کنید تا به صفحه پیش نمایش منتقل شوید</p>
+<!-- <a href="../" target="_blank" class="button button2">کلیک کنید</a> -->
+<div class="wrap">
+<a href="../" target="_blank"><button class="button">کلیک کنید</button></a>
+  </div>
 </div>
 </body>
 </html>
